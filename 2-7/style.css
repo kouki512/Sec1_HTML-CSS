@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-visual{
+  width: 100%;
+  height: 400px;
+  background: transparent url(./img/mv.jpg) center bottom /cover;
+}
+.mv-title{
+  padding-left: 20px;
+  padding-top: 20px;
+  color: gray;
+}
+.contents{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.contents-container{
+  width: 840px;
+  margin: 0 auto;
+}
+.contents-item{
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  padding: 30px 0;
+  line-height: 1.7;
+  color: gray;
+}
