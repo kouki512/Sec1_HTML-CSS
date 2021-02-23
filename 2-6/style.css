@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.util-bg{
+  height: 200px;
+  width: 100%;
+}
+.sakura{
+  background: transparent url(./img/box1.jpg) center /cover;
+}
+.ocian{
+  background: transparent url(./img/box2.jpg) center /cover;
+}
+.kaede{
+  background: transparent url(./img/box3.jpg) center /cover;
+}
+.snow{
+  background: transparent url(./img/box4.jpg) center /cover;
+}
