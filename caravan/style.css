@@ -209,23 +209,59 @@ footer{
 .footer-text{
   color: #fff;
 }
+@media screen and (max-width: 425px){
+  .nav-list-item{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .main{
+    display: block;
+    width: 100%;
+   padding: 0 10px;
+  }
+  .social{
+    display: none;
+  }
+  .main-visual{
+    margin-bottom: 50px;
+    height: auto;
+  }
+  .main-visual-content{
+    width: 100%;
+  }
+  .main-visual-text{
+    line-height: 1.5;
+  }
+  .blog{
+    width: 100%;
+  }
 
-.social i{
-  color: black;
-}
+  .sidebar{
+    width: 100%;
+  }
+  .blog-image{
+    width: 49%;
+  }
 
-@media screen and (max-width:1024px){
-  .social i{
-    color: green;
+  .blog-date{
+    font-size: 14px;
+   
   }
-}
-@media screen and (max-width:768px){
-  .social i{
-    color: red;
+  .category{
+    display: none;
   }
-}
-@media screen and (max-width:425px){
-  .social i{
-    color: blue;
+  .pagination{
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
-}
+  .instagram-box{
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd){
+    margin-right: 0px;
+  }
+
+  
+
+  }
